@@ -1,0 +1,170 @@
+/*任务二样式表单*/
+
+/*字体&页面背景*/
+body{
+    background-color: #dedede;
+    margin: 0px;
+    font-family: 微软雅黑;
+}
+h1{
+    font-size:24px;
+    padding-bottom: 16px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 16px;
+    color:#555555;
+}
+span, time{
+    font-size: 12px;
+    color:#666666;
+}
+
+
+/*标题栏样式*/
+.logo{
+    margin-left: 36px;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+header {
+    background-color: #333333;  
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+}
+header>nav{
+    margin-top: 16px;
+    float: right;
+}
+header nav ul li{
+    display: inline;
+}
+header a{
+    color: #ffffff;
+    margin-right: 24px;
+    font-size: 20px;
+    text-decoration: none;
+}
+header a:hover{
+    color:#cccccc;
+}
+
+/*正文样式*/
+article, aside{
+    margin:18px;
+    padding:18px;
+    background-color: #ffffff;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+article p{
+    font-size: 16px;
+    line-height: 32px;
+    color:#333333;
+    text-indent: 2em;
+}
+article ul li{
+    list-style: none;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+/*图片样式*/
+figure{
+    border:solid 1px #eeeeee;
+    width: 300px;
+    padding:16px;
+}
+figcaption{
+    text-align: center;
+    font-size: 12px;
+}
+
+/*附录样式*/
+ol li{
+    font-weight: bold;
+}
+article table{
+    width:100%;
+    font-size: 12px;
+    font-weight: bold;
+    border-collapse: collapse;
+    border: 1px solid #cccccc;
+}
+article thead{
+    background-color: #000000;
+    color:#dddddd;
+}
+article tfoot{
+    background-color: #cccccc;
+}
+article table th, 
+article table td{
+    padding:4px;
+    border: 1px solid #cccccc;
+}
+
+/*侧栏样式*/
+aside{
+    font-size: 12px;
+}
+aside h2{
+    border-left: 4px solid #999999;
+    font-size: 18px;
+    padding-left: 20px;
+}
+aside form, aside form table{
+    width: 100%;
+}
+aside form table{
+    width: 100%;
+    border-collapse: collapse;
+}
+aside form table tr th{
+    width:28.2%;
+    text-align: right;
+    padding-right: 18px;
+}
+aside form table tr td{
+    width:61.8%;
+    line-height: 32px;
+}
+
+.as_tip{
+    font-size: 12px;
+    color: #898989;
+    line-height: 0px;
+    padding-top: 8px;
+    padding-bottom:24px; 
+}
+.as_dscb{
+    width:90%;
+}
+[type='submit']{
+    width: 100%;
+    background-color: #3355d0;
+    border-color: #2e6da4;
+    color: #ffffff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 4px;
+}
+[type='submit']:hover{
+    background-color: #22a2b7;
+    border-color: #ffffff; 
+}
+/*脚注*/
+footer{
+    background-color: #000000;
+    color:#cccccc;
+    text-align:center;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 24px;
+    font-weight: bold;
+}
