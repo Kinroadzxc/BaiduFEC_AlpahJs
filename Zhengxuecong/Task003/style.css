@@ -1,0 +1,85 @@
+* {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-family: 微软雅黑;
+}
+body{
+   margin:0px;
+   padding:20px;
+}
+.logo{
+   max-width:78px; 
+   width:expression_r(this.width<78px?"auto":"78px"); 
+   max-height:78px; 
+   height:expression_r(this.height<78px?"auto":"78px");    
+}
+.b2 { 
+   background-color: #fff;
+   border: 1px solid #999;
+   padding:20px;
+}
+.b3{
+   background-color: #eee;
+   border: 1px solid #999;
+   height: 80px;
+   width: 80px;
+   margin-bottom: 20px;
+}
+p{
+   text-indent: 2em;
+}
+#out_box{
+   position: relative;
+   min-width: 383px;
+   overflow: auto;
+   background-color: #eee;
+   padding: 20px;
+   border: 1px solid #999;
+   min-height: 560px;
+}
+#left_box{
+   position: absolute;
+   width:200px;
+   top:20px;
+   left:20px;
+}
+#right_box{
+   position:absolute;
+   top:20px;
+   right:20px;
+}
+#team_logo{
+   display: inline-block;
+   margin-top:0px;
+   position:relative;
+}
+#team_name{
+   position: absolute;
+   display: inline-block;
+   top:20px;
+   right:20px;
+}
+#logo5,#team_logo{
+   margin-bottom: 0px;
+}
+
+
+@media screen and (min-width:640px) {
+   #middle_box{
+      position:relative;
+      margin-left: 220px;
+      margin-right: 140px;
+}
+
+
+}
+
+@media screen and (max-width:639px){
+   #middle_box{
+      position:relative;
+      margin-left: 0px;
+      margin-top: 140px;
+      margin-right: 140px;
+   }
+}
