@@ -1,0 +1,68 @@
+body{
+	font-family: "微软雅黑";
+}
+
+.panel {
+	margin: 20px;
+    position: relative;
+    background-color: #eee;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #999;
+    overflow: auto;
+}
+
+.Team_Logo {
+	margin : 20px;
+	width: 200px;
+	height: 120px;
+  	background-color: white;
+  	border: solid 1px #999;
+  	float: left;
+  }
+.Team_Logo img {
+	margin: 20px;
+	width: 80px;
+	height: 80px;
+  	float: left;
+  }
+.Team_Logo p {
+  float: right;
+  margin-right: 10px;
+  }
+
+.Individual_Logo{
+	width: 120px;
+	margin: 20px;
+  	background-color: white;
+  	border: solid 1px #999;
+  	float: right;
+}
+
+.Individual_Logo img{
+	margin-left:20px;
+	margin-top: 20px;
+	width: 80px;
+	height: 80px;
+}
+
+.Team_Introduction{
+	position: relative;
+    margin-left: 240px;
+    margin-right: 160px;
+    margin-top: 20px;
+    width: auto;
+    background-color: #fff;
+    border-style: solid;
+    border-color: #999;
+    border-width: 1px;
+    margin-bottom: 20px;
+}
+
+.Team_Introduction p{
+	margin: 1em;
+	line-height: 1em;
+}
+
+#Last{margin-bottom: 20px;}
+
