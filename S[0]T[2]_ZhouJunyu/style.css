@@ -1,15 +1,17 @@
 body {font-family: 微软雅黑,sans-serif;}
-  #header {background: #c0c;}
+  #header {background-color: gray;}
   #header ul {
-      float:right;
-      margin-right: 50px;
-      margin-top: 25px;
-      }
-  #header ul li {
-      display:inline;
-      list-style-type : circle;
-      }
-  #header a {color: white}
+    float: right;
+    margin-right: 30px;
+    margin-top: 25px;
+  }
+  #header img{}
+  #header ul li{
+    display:inline-block;
+  }
+  #header a{color: white; padding: 15px;}
+  #header a:hover{background-color: red;}
+
   .divbox {
           border: 1px solid #ccc;
           background-color: white;
